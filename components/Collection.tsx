@@ -56,7 +56,7 @@ export function Collection({
             {collection.name}
           </Text>
           <Paragraph className={wrapWords} mb="x2">
-		  The official logo, symbol, meme, mascot, and image of TORTUGA. <br/><br/> ↳ Year: 2022 <br/> ↳ Medium: Pixels on Digital Canvas ↳ Dimensions: 3000 × 3000 px <br/> ↳ License: Creative Commons Zero (CC0) <br/>↳ Artist: Saucedo.eth <br/>↳ Reference(s): Black Square by Kazimir Malevich DONDA by Ye One Piece by Eiichiro Oda X-ray of CryptoPunk 130 by PIV
+		  The official logo, symbol, meme, mascot, and image of TORTUGA. <br/><br/> ↳ Year: 2022 <br/> ↳ Medium: Pixels on Digital Canvas ↳ Dimensions: 3000 × 3000 px <br/> ↳ License: Creative Commons Zero (CC0) <br/>↳ Artist: Saucedo.eth <br/>↳ Reference(s): <br/>Black Square by Kazimir Malevich <br/>DONDA by Ye <br/>One Piece by Eiichiro Oda <br/>X-ray of CryptoPunk 130 by PIV
           </Paragraph>
         </Stack>
 
