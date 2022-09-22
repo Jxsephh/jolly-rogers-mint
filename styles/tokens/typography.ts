@@ -1,6 +1,6 @@
 export const fonts = {
   heading: 'system-ui, sans-serif',
-  body: 'PT Mono, sans-serif',
+  body: 'PT Mono, monospace',
   mono: `'PT Mono', monospace`,
 }
 
