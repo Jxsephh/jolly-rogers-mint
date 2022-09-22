@@ -1,7 +1,7 @@
 export const fonts = {
   heading: 'system-ui, sans-serif',
-  body: 'system-ui, sans-serif',
-  mono: `'Roboto Mono', monospace`,
+  body: 'PT Mono, sans-serif',
+  mono: `'PT Mono', monospace`,
 }
 
 export const fontSize = {
