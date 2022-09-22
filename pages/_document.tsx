@@ -7,12 +7,13 @@ export default class Document extends NextDocument {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+			<link rel="icon" href="/lilroh.svg" />
+		</Head>
         <body>
           <ThemeProvider theme={customTheme}>
             <Main />
           </ThemeProvider>
-
           <NextScript />
         </body>
       </Html>
