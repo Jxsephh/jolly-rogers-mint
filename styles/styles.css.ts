@@ -138,3 +138,7 @@ export const collapsibleContent = style({
     '&[data-state="closed"]': { animation: `${collapsibleClose} 260ms ${ease.out}` },
   },
 })
+
+export const title = style( {
+	fontFamily: 'Futura Condensed Extra Bold, sans-serif'
+})

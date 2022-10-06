@@ -1,5 +1,5 @@
 export const fonts = {
-  heading: 'system-ui, sans-serif',
+  heading: 'Futura Condensed Extra Bold, sans-serif',
   body: 'PT Mono, monospace',
   mono: `'PT Mono', monospace`,
 }

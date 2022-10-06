@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { useSaleStatus } from 'hooks/useSaleStatus'
 import { useDisconnect } from 'wagmi'
 import { ipfsImage } from '@lib/helpers'
-import { maxWidth, heroImage, wrapWords } from 'styles/styles.css'
+import { maxWidth, heroImage, wrapWords, title } from 'styles/styles.css'
 import { MintComponent } from '@components/zord/MintComponent'
 import { MintDetails } from '@components/zord/MintDetails'
 import { PresaleComponent } from '@components/zord/PresaleComponent'
@@ -52,7 +52,7 @@ export function Collection({
       </Flex>
       <Box flex={{ '@initial': '1', '@1024': 'none' }} className={maxWidth} p="x4">
         <Stack gap="x2" mb="x3">
-          <Text variant="display-md" mb="x2">
+          <Text className={title} variant="display-md" mb="x2">
             {collection.name}
           </Text>
           <Paragraph className={wrapWords} mb="x2">

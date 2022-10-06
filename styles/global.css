@@ -23,6 +23,11 @@ a:hover {
   box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "Futura Condensed Extra Bold";
+	src: url("../public/fonts/Futura Condensed Extra Bold.otf");
+}
+
 /* Custom overrides */
 
 .zord-text p {
